@@ -5,6 +5,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 
+
 def generate_text(prompt):
     # 모델 엔진 선택
     model_engine = "text-davinci-003"
